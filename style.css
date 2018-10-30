@@ -1,1 +1,90 @@
-
+@import url(https//fonts.googleapis.com/css?family=Montserrat);
+.Top-Bar{
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 2px;
+    height: 75px;
+    background-color: green;
+}
+h1{
+    color: white;
+    font-family: "Montserrat", Impact;
+}
+#bg{
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    width: 200%; 
+    height: 200%;
+}
+#bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+}
+html{
+    background: url(fallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body{
+    background-color: lightgrey;
+    margin: 120px;
+    padding: 0;
+}
+.Main{
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+}
+.Text-Box {
+    font-size: 20px;
+    text-shadow: 0 1px 0 #FFF;
+    font-family: "Montserrat", Arial;
+}
+.Text-Box-2 {
+    font-size: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-shadow: 0 1px 0 #FFF;
+    font-family: "Montserrat", Arial;
+    text-align: center
+}
+.footer-text {
+    text-shadow: 0 1px 0 #FFF;
+    font-family: "Montserrat", Arial;
+    font-size: .75em;
+    text-align: center
+}
+h2{
+    color: green;
+}
+.button{
+    height: 38px;
+    background: #1F8532;
+    border: 1px solid #066a19;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.Text-Box-3 {
+    font-size: 16px;
+    margin-left: 75px;
+    margin-right: 75px;
+    text-shadow: 0 1px 0 #FFF;
+    font-family: "Montserrat", Arial;
+    text-align: left
+}
